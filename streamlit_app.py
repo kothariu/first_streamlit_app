@@ -1,4 +1,4 @@
 import streamlit as sl
-from snowflake import connector
+import snowflake.connector.connect
 
 sl.title('I have 2 naughty kids')
